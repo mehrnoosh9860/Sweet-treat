@@ -15,13 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fa" dir="rtl">
-     
-      <head><link
-          href="https://fonts.googleapis.com/css2?family=Iranian+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        /></head>
-      
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );
